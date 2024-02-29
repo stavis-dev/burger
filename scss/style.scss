@@ -34,7 +34,7 @@ section {
 .title {
 	font-size: 100px;
 	color: #fff;
-	@media (max-width: 768px) {
+	@media (max-width: 767.98px) {
 		font-size: 30px;
 	}
 }
@@ -46,7 +46,7 @@ footer {
 	align-items: center;
 	color: #fff;
 	font-size: 100px;
-	@media (max-width: 768px) {
+	@media (max-width: 767.98px) {
 		font-size: 30px;
 	}
 }
@@ -73,7 +73,7 @@ footer {
 .menu {
 	&__icon {
 		display: none;
-		@media (max-width: 768px) {
+		@media (max-width: 767.98px) {
 			display: block;
 			width: 30px;
 			height: 18px;
@@ -113,7 +113,7 @@ footer {
 	}
 	// .menu__body
 	&__body {
-		@media (max-width: 768px) {
+		@media (max-width: 767.98px) {
 			position: absolute;
 			top: 0;
 			left: -100%;
@@ -131,7 +131,7 @@ footer {
 		list-style-type: none;
 		display: flex;
 		gap: 30px;
-		@media (max-width: 768px) {
+		@media (max-width: 767.98px) {
 			flex-direction: column;
 			padding: 30px;
 			gap: 0;
@@ -148,7 +148,7 @@ footer {
 		&:hover {
 			text-decoration: underline;
 		}
-		@media (max-width: 768px) {
+		@media (max-width: 767.98px) {
 			display: block;
 			font-size: 30px;
 			line-height: 70px;
